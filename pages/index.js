@@ -17,9 +17,8 @@ export default function Home() {
         <div id="vercel-sponsorship">
           Powered by{" "}
           <img
-            class="object-contain h-4 inline-block"
+            className="object-contain h-4 inline-block"
             src="/vercel.svg"
-            height="20px"
             alt="Sponsored and powered by Vercel"
           />
         </div>
