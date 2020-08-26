@@ -16,11 +16,13 @@ export default function Home() {
       <footer>
         <div id="vercel-sponsorship">
           Powered by{" "}
-          <img
-            className="object-contain h-4 inline-block"
-            src="/vercel.svg"
-            alt="Sponsored and powered by Vercel"
-          />
+          <a href="https://vercel.com/?utm_source=crayhola&utm_campaign=oss">
+            <img
+              className="object-contain h-4 inline-block"
+              src="/vercel.svg"
+              alt="Sponsored and powered by Vercel"
+            />
+          </a>
         </div>
       </footer>
     </div>
