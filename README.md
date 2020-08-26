@@ -32,5 +32,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 <h2 align="center">Partners</h2>
 
 <p align="center">
-  <a href="https://vercel.com/?utm_source=crayhola" target="_blank" rel="noopener"><img src="https://github.com/crayhola/slacker/raw/main/public/powered-by-vercel.svg" width="175" alt="Powered by Vercel"></a>
+  <a href="https://vercel.com/?utm_source=crayhola&utm_campaign=oss" target="_blank" rel="noopener"><img src="https://github.com/crayhola/slacker/raw/main/public/powered-by-vercel.svg" width="175" alt="Powered by Vercel"></a>
 </p>
