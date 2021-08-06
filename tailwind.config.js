@@ -1,11 +1,14 @@
 module.exports = {
-  purge: [],
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['Work Sans', 'helvetica', 'sans-serif'],
-    },
+      sans: ['Work Sans', 'helvetica', 'sans-serif']
+    }
   },
-  variants: {},
+  variants: {
+    extend: {},
+  },
   plugins: [],
 }
