@@ -14,9 +14,14 @@ export default function Home() {
           className="pb-4"
           src={'./logo-desktop.svg'}
         />
-        <div className="w-3/5 text-center font-medium">
-          <p>We're getting a remodel! In the meantime, we've decided to pause applications for the JOC Slack. We know it's an important resource for many so we will be back very soon. </p>
-          <p>If you applied before we closed the form, you should hear from us really soon. Your application didn't end up into the ether. We promise.</p>
+        <div className="sm:w-3/5 text-justify font-medium w-full">
+          <p>Hello community,</p>
+
+          <p>It’s been more than five years since we’ve started this community and it has ballooned to a size we never would have dreamed of. As demand for a community like ours expands, we feel the need to change how we administer invitations to the space. We’re revamping the invitation system as well as our website.</p>
+
+          <p><span className="underline">Here’s what this means:</span> we’re going to pause the application process while we're doing this work. But we’ll be back very soon! If you've applied before this hiatus, don't worry. You will hear from us very soon.</p>
+
+          <p className="italic">-The JOC slack admins</p>
         </div>
      
       </main>
