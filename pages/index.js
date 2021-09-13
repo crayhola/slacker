@@ -9,12 +9,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col justify-center items-center h-full">
+      <main className="flex flex-col justify-center items-center h-full mb-9">
         <img className="pb-4" src={"./logo-desktop.svg"} />
 
         <section
           id="about-us"
-          className="sm:w-3/5 text-justify font-medium w-full"
+          className="sm:w-3/5 text-justify font-medium w-full mb-2"
         >
           <h2 className="font-bold text-left p-2">About us</h2>
           <p>
@@ -72,24 +72,30 @@ export default function Home() {
           </p>
         </section>
 
-        <section id="join" className="sm:w-3/5 text-justify font-medium w-full">
-          <h2 className="font-bold text-left p-2">Join</h2>
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSeHYAs9Xhwlc7FKDGhMzmlHDbnFEMdJQSFQxUJN8heg5PEwpg/viewform?embedded=true"
-            width="100%"
-            height="500px"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-          >
-            Loading…
-          </iframe>
+        <section className="sm:w-3/5 text-justify font-medium w-full">
+          <p>
+            <button
+              title="Join the JOC Slack community"
+              id="join"
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            >
+              <a
+                className="text-white"
+                href="https://forms.gle/1j4AhbL1A4HfPhij6"
+              >
+                Join JOC Slack
+              </a>
+            </button>
+          </p>
         </section>
       </main>
       <footer>
         <div id="vercel-sponsorship">
           Powered by{" "}
-          <a href="https://vercel.com/?utm_source=crayhola&utm_campaign=oss">
+          <a
+            title="Sponsored and powered by Vercel"
+            href="https://vercel.com/?utm_source=crayhola&utm_campaign=oss"
+          >
             <img
               className="object-contain h-4 inline-block"
               src="/vercel.svg"
