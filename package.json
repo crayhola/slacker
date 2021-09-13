@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "test": "echo \"No test specified\"",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prepare": "husky install"
   },
   "dependencies": {
     "autoprefixer": "^10.3.1",
@@ -16,5 +18,10 @@
     "react-dom": "^17.0.2",
     "tailwindcss": "^2.2.7",
     "yarn": "^1.22.11"
+  },
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "prettier": "^2.4.0",
+    "pretty-quick": "^3.1.1"
   }
 }
